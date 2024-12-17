@@ -29,7 +29,7 @@ app.use(express.json());
 
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'index.html')); // Serve o index.html da raiz
+    res.sendFile(path.join(__dirname, '../index.html')); 
 });
 
 // Rota para criar um veículo
