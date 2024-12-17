@@ -27,23 +27,6 @@ async function uploadImageToSupabase(imageBuffer, fileName) {
 app.use(cors());
 app.use(express.json());
 
-// Rota para servir o index.html diretamente da raiz
-app.get('/', (req, res) => {
-    try {
-        res.sendFile(path.join(__dirname, '../index.html'), (err) => {
-            if (err) {
-                console.error('Erro ao carregar o arquivo index.html:', err);
-                res.status(500).send('Erro interno do servidor');
-            }
-        });
-    } catch (error) {
-        console.error('Erro na rota /:', error);
-        res.status(500).send('Erro interno do servidor');
-    }
-});
-
-// Serve arquivos estáticos da raiz (se necessário)
-app.use(express.static(__dirname));
 
 // Rota para criar um veículo
 app.post('/veiculos', async (req, res) => {
