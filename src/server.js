@@ -30,7 +30,7 @@ app.use(express.json());
 // Rota para servir o index.html diretamente da raiz
 app.get('/', (req, res) => {
     try {
-        res.sendFile(path.join(__dirname, 'index.html'), (err) => {
+        res.sendFile(path.join(__dirname, '../index.html'), (err) => {
             if (err) {
                 console.error('Erro ao carregar o arquivo index.html:', err);
                 res.status(500).send('Erro interno do servidor');
