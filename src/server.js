@@ -32,7 +32,6 @@ app.use(cors({
     allowedHeaders: ['Content-Type', 'Authorization']
 }));
 
-app.use(cors());
 app.use(express.json());
 
 // Defina a pasta 'public' como a raiz para arquivos estáticos
