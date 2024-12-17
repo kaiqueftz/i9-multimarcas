@@ -27,9 +27,9 @@ async function uploadImageToSupabase(imageBuffer, fileName) {
 app.use(cors());
 app.use(express.json());
 
-// Rota simples para testar o servidor
+
 app.get('/', (req, res) => {
-    res.send('Servidor está funcionando!');
+    res.sendFile(path.join(__dirname, 'index.html')); // Serve o index.html da raiz
 });
 
 // Rota para criar um veículo
