@@ -25,6 +25,13 @@ async function uploadImageToSupabase(imageBuffer, fileName) {
     return data;
 }
 
+// Permite que o frontend (em outra origem) se conecte ao seu backend
+app.use(cors({
+    origin: 'https://i9-multimarcas.vercel.app/', // Substitua pela URL do seu frontend
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
+    allowedHeaders: ['Content-Type', 'Authorization']
+}));
+
 app.use(cors());
 app.use(express.json());
 
