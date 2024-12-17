@@ -25,22 +25,16 @@ async function uploadImageToSupabase(imageBuffer, fileName) {
     return data;
 }
 
-// Permite que o frontend (em outra origem) se conecte ao seu backend
-app.use(cors({
-    origin: 'https://i9-multimarcas.vercel.app/', // Substitua pela URL do seu frontend
-    methods: ['GET', 'POST', 'PUT', 'DELETE'],
-    allowedHeaders: ['Content-Type', 'Authorization']
-}));
-
+app.use(cors());
 app.use(express.json());
 
 // Defina a pasta 'public' como a raiz para arquivos estáticos
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'index.html'));
-  });
-  
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));
+});
+
 
 // Rota para criar um veículo
 app.post('/veiculos', async (req, res) => {
