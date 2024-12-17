@@ -28,8 +28,15 @@ app.use(cors());
 app.use(express.json());
 
 
+// Rota para servir o index.html
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '../index.html')); 
+    const indexPath = path.join(__dirname, 'index.html');
+    res.sendFile(indexPath, (err) => {
+        if (err) {
+            console.error('Erro ao servir o index.html:', err); // Exibe o erro no console
+            res.status(500).send('Erro interno do servidor');
+        }
+    });
 });
 
 // Rota para criar um veículo
