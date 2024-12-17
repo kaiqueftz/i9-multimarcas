@@ -29,12 +29,12 @@ app.use(cors());
 app.use(express.json());
 
 // Defina a pasta 'public' como a raiz para arquivos estáticos
-app.use(express.static(path.join(__dirname)));
+app.use(express.static(path.join(__dirname, 'public')));
 
-// Rota para servir o index.html
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'index.html'));
-});
+    res.sendFile(path.join(__dirname, 'public', 'index.html'));
+  });
+  
 
 // Rota para criar um veículo
 app.post('/veiculos', async (req, res) => {
