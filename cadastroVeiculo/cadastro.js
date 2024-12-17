@@ -19,8 +19,8 @@ inputFile.addEventListener("change", function (event) {
         if (index < 3) {  // Limite de 3 imagens
             const reader = new FileReader();
             reader.onload = function (e) {
-                const imgElement = document.createElement("img");
-                imgElement.src = e.target.result;
+                const /imgElement = document.createElement("/img");
+                /imgElement.src = e.target.result;
 
                 const previewItem = document.createElement("div");
                 previewItem.classList.add("preview-item");
@@ -32,7 +32,7 @@ inputFile.addEventListener("change", function (event) {
                     previewItem.remove();  // Remove a imagem ao clicar no "X"
                 });
 
-                previewItem.appendChild(imgElement);
+                previewItem.appendChild(/imgElement);
                 previewItem.appendChild(removeBtn);
                 imagePreview.appendChild(previewItem);
             };

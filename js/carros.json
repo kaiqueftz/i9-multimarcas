@@ -15,9 +15,9 @@
     "cambio": "Automático",
     "whatsapp": "61986149857",
     "imagens": [
-      "img/carros/honda_city_lx/1.jpeg",
-      "img/carros/honda_city_lx/2.jpeg",
-      "img/carros/honda_city_lx/3.jpeg"
+      "/img/carros/honda_city_lx/1.jpeg",
+      "/img/carros/honda_city_lx/2.jpeg",
+      "/img/carros/honda_city_lx/3.jpeg"
     ]
   },
   {
@@ -36,9 +36,9 @@
     "cambio": "Manual",
     "whatsapp": "61986149857",
     "imagens": [
-      "img/carros/golG6Preto/1.jpeg",
-      "img/carros/golG6Preto/2.jpeg",
-      "img/carros/golG6Preto/3.jpeg"
+      "/img/carros/golG6Preto/1.jpeg",
+      "/img/carros/golG6Preto/2.jpeg",
+      "/img/carros/golG6Preto/3.jpeg"
     ]
   },
   {
@@ -57,9 +57,9 @@
     "cambio": "Manual",
     "whatsapp": "61986149857",
     "imagens": [
-      "img/carros/poloMCA/1.jpeg",
-      "img/carros/poloMCA/2.jpeg",
-      "img/carros/poloMCA/3.jpeg"
+      "/img/carros/poloMCA/1.jpeg",
+      "/img/carros/poloMCA/2.jpeg",
+      "/img/carros/poloMCA/3.jpeg"
     ]
   },
   {
@@ -78,9 +78,9 @@
     "cambio": "Manual",
     "whatsapp": "61986149857",
     "imagens": [
-      "img/carros/poloMCA_2/1.jpeg",
-      "img/carros/poloMCA_2/2.jpeg",
-      "img/carros/poloMCA_2/3.jpeg"
+      "/img/carros/poloMCA_2/1.jpeg",
+      "/img/carros/poloMCA_2/2.jpeg",
+      "/img/carros/poloMCA_2/3.jpeg"
     ]
   },
   {
@@ -99,9 +99,9 @@
     "cambio": "Automático",
     "whatsapp": "61986149857",
     "imagens": [
-      "img/carros/creta/1.jpeg",
-      "img/carros/creta/2.jpeg",
-      "img/carros/creta/3.jpeg"
+      "/img/carros/creta/1.jpeg",
+      "/img/carros/creta/2.jpeg",
+      "/img/carros/creta/3.jpeg"
     ]
   },
   {
@@ -120,9 +120,9 @@
     "cambio": "Manual",
     "whatsapp": "61986149857",
     "imagens": [
-      "img/carros/argo_drive/1.jpeg",
-      "img/carros/argo_drive/2.jpeg",
-      "img/carros/argo_drive/3.jpeg"
+      "/img/carros/argo_drive/1.jpeg",
+      "/img/carros/argo_drive/2.jpeg",
+      "/img/carros/argo_drive/3.jpeg"
     ]
   },
   {
@@ -141,9 +141,9 @@
     "cambio": "Manual",
     "whatsapp": "61986149857",
     "imagens": [
-      "img/carros/mobi_like/1.jpeg",
-      "img/carros/mobi_like/2.jpeg",
-      "img/carros/mobi_like/3.jpeg"
+      "/img/carros/mobi_like/1.jpeg",
+      "/img/carros/mobi_like/2.jpeg",
+      "/img/carros/mobi_like/3.jpeg"
     ]
   },
   {
@@ -162,9 +162,9 @@
     "cambio": "Automática",
     "whatsapp": "61986149857",
     "imagens": [
-      "img/carros/aircross/1.jpeg",
-      "img/carros/aircross/2.jpeg",
-      "img/carros/aircross/3.jpeg"
+      "/img/carros/aircross/1.jpeg",
+      "/img/carros/aircross/2.jpeg",
+      "/img/carros/aircross/3.jpeg"
     ]
   },
   {
@@ -183,9 +183,9 @@
     "cambio": "Manual",
     "whatsapp": "61986149857",
     "imagens": [
-      "img/carros/onix/1.jpeg",
-      "img/carros/onix/2.jpeg",
-      "img/carros/onix/3.jpeg"
+      "/img/carros/onix/1.jpeg",
+      "/img/carros/onix/2.jpeg",
+      "/img/carros/onix/3.jpeg"
     ]
   },
   {
@@ -204,9 +204,9 @@
     "cambio": "Manual",
     "whatsapp": "61986149857",
     "imagens": [
-      "img/carros/qq/1.jpeg",
-      "img/carros/qq/2.jpeg",
-      "img/carros/qq/3.jpeg"
+      "/img/carros/qq/1.jpeg",
+      "/img/carros/qq/2.jpeg",
+      "/img/carros/qq/3.jpeg"
     ]
   },
   {
@@ -225,9 +225,9 @@
     "cambio": "Manual",
     "whatsapp": "61986149857",
     "imagens": [
-      "img/carros/sandero/1.jpeg",
-      "img/carros/sandero/2.jpeg",
-      "img/carros/sandero/3.jpeg"
+      "/img/carros/sandero/1.jpeg",
+      "/img/carros/sandero/2.jpeg",
+      "/img/carros/sandero/3.jpeg"
     ]
   },
   {
@@ -246,9 +246,9 @@
     "cambio": "Automático",
     "whatsapp": "61986149857",
     "imagens": [
-      "img/carros/ix35/1.jpeg",
-      "img/carros/ix35/2.jpeg",
-      "img/carros/ix35/3.jpeg"
+      "/img/carros/ix35/1.jpeg",
+      "/img/carros/ix35/2.jpeg",
+      "/img/carros/ix35/3.jpeg"
     ]
   },
   {
@@ -267,9 +267,9 @@
     "cambio": "Manual",
     "whatsapp": "61986149857",
     "imagens": [
-      "img/carros/mobi/1.jpeg",
-      "img/carros/mobi/2.jpeg",
-      "img/carros/mobi/3.jpeg"
+      "/img/carros/mobi/1.jpeg",
+      "/img/carros/mobi/2.jpeg",
+      "/img/carros/mobi/3.jpeg"
     ]
   },
   {
@@ -288,9 +288,9 @@
     "cambio": "Dualogic",
     "whatsapp": "61986149857",
     "imagens": [
-      "img/carros/palio/1.jpeg",
-      "img/carros/palio/2.jpeg",
-      "img/carros/palio/3.jpeg"
+      "/img/carros/palio/1.jpeg",
+      "/img/carros/palio/2.jpeg",
+      "/img/carros/palio/3.jpeg"
     ]
   },
   {
@@ -309,9 +309,9 @@
     "cambio": "Automático",
     "whatsapp": "61986149857",
     "imagens": [
-      "img/carros/city/1.jpeg",
-      "img/carros/city/2.jpeg",
-      "img/carros/city/3.jpeg"
+      "/img/carros/city/1.jpeg",
+      "/img/carros/city/2.jpeg",
+      "/img/carros/city/3.jpeg"
     ]
   },
   {
@@ -330,9 +330,9 @@
     "cambio": "Automático",
     "whatsapp": "61986149857",
     "imagens": [
-      "img/carros/cross/1.jpeg",
-      "img/carros/cross/2.jpeg",
-      "img/carros/cross/3.jpeg"
+      "/img/carros/cross/1.jpeg",
+      "/img/carros/cross/2.jpeg",
+      "/img/carros/cross/3.jpeg"
     ]
   },
   {
@@ -351,9 +351,9 @@
     "cambio": "Manual",
     "whatsapp": "61986149857",
     "imagens": [
-      "img/carros/argo/1.jpeg",
-      "img/carros/argo/2.jpeg",
-      "img/carros/argo/3.jpeg"
+      "/img/carros/argo/1.jpeg",
+      "/img/carros/argo/2.jpeg",
+      "/img/carros/argo/3.jpeg"
     ]
   },
   {
@@ -372,9 +372,9 @@
     "cambio": "Manual",
     "whatsapp": "61986149857",
     "imagens": [
-      "img/carros/hb20C/1.jpeg",
-      "img/carros/hb20C/2.jpeg",
-      "img/carros/hb20C/3.jpeg"
+      "/img/carros/hb20C/1.jpeg",
+      "/img/carros/hb20C/2.jpeg",
+      "/img/carros/hb20C/3.jpeg"
     ]
   },
   {
@@ -393,9 +393,9 @@
     "cambio": "Manual",
     "whatsapp": "61986149857",
     "imagens": [
-      "img/carros/puntoPreto/1.jpeg",
-      "img/carros/puntoPreto/2.jpeg",
-      "img/carros/puntoPreto/3.jpeg"
+      "/img/carros/puntoPreto/1.jpeg",
+      "/img/carros/puntoPreto/2.jpeg",
+      "/img/carros/puntoPreto/3.jpeg"
     ]
   },
 
@@ -415,9 +415,9 @@
     "cambio": "Manual",
     "whatsapp": "61986149857",
     "imagens": [
-      "img/carros/fiestaPrata/2.jpeg",
-      "img/carros/fiestaPrata/1.jpeg",
-      "img/carros/fiestaPrata/3.jpeg"
+      "/img/carros/fiestaPrata/2.jpeg",
+      "/img/carros/fiestaPrata/1.jpeg",
+      "/img/carros/fiestaPrata/3.jpeg"
     ]
   },
 
@@ -437,9 +437,9 @@
     "cambio": "Manual",
     "whatsapp": "61986149857",
     "imagens": [
-      "img/carros/agoBranco/1 (1).jpeg",
-      "img/carros/agoBranco/1 (2).jpeg",
-      "img/carros/agoBranco/1 (3).jpeg"
+      "/img/carros/agoBranco/1 (1).jpeg",
+      "/img/carros/agoBranco/1 (2).jpeg",
+      "/img/carros/agoBranco/1 (3).jpeg"
     ]
   },
 
@@ -459,10 +459,10 @@
     "cambio": "Automático",
     "whatsapp": "61986149857",
     "imagens": [
-      "img/carros/FoxPrata/WhatsApp Image 2024-10-16 at 20.47.47 (1).jpeg",
-      "img/carros/FoxPrata/WhatsApp Image 2024-10-16 at 20.47.46 (1).jpeg",
-      "img/carros/FoxPrata/WhatsApp Image 2024-10-16 at 20.47.47 (2).jpeg",
-      "img/carros/FoxPrata/WhatsApp Image 2024-10-16 at 20.47.47 (3).jpeg"
+      "/img/carros/FoxPrata/WhatsApp Image 2024-10-16 at 20.47.47 (1).jpeg",
+      "/img/carros/FoxPrata/WhatsApp Image 2024-10-16 at 20.47.46 (1).jpeg",
+      "/img/carros/FoxPrata/WhatsApp Image 2024-10-16 at 20.47.47 (2).jpeg",
+      "/img/carros/FoxPrata/WhatsApp Image 2024-10-16 at 20.47.47 (3).jpeg"
     ]
   },
 
@@ -482,13 +482,13 @@
     "cambio": "Manual",
     "whatsapp": "61986149857",
     "imagens": [
-      "img/carros/fiorino/1.jpeg",
-      "img/carros/fiorino/2.jpeg",
-      "img/carros/fiorino/3.jpeg",
-      "img/carros/fiorino/3.1.jpeg",
-      "img/carros/fiorino/4.jpeg",
-      "img/carros/fiorino/5.jpeg",
-      "img/carros/fiorino/6.jpeg"
+      "/img/carros/fiorino/1.jpeg",
+      "/img/carros/fiorino/2.jpeg",
+      "/img/carros/fiorino/3.jpeg",
+      "/img/carros/fiorino/3.1.jpeg",
+      "/img/carros/fiorino/4.jpeg",
+      "/img/carros/fiorino/5.jpeg",
+      "/img/carros/fiorino/6.jpeg"
     ]
   }
 ]
