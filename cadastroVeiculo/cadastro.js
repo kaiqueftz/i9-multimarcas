@@ -19,8 +19,6 @@ inputFile.addEventListener("change", function (event) {
         if (index < 3) {  // Limite de 3 imagens
             const reader = new FileReader();
             reader.onload = function (e) {
-                const /imgElement = document.createElement("/img");
-                /imgElement.src = e.target.result;
 
                 const previewItem = document.createElement("div");
                 previewItem.classList.add("preview-item");
@@ -32,7 +30,6 @@ inputFile.addEventListener("change", function (event) {
                     previewItem.remove();  // Remove a imagem ao clicar no "X"
                 });
 
-                previewItem.appendChild(/imgElement);
                 previewItem.appendChild(removeBtn);
                 imagePreview.appendChild(previewItem);
             };
@@ -133,7 +130,7 @@ form.addEventListener("submit", async (e) => {
         }
 
         // Buscar detalhes do veículo do backend
-        const response = await fetch(`http://localhost:3000/veiculos/${veiculoId}`);
+        const response = await fetch(`https://i9-multimarcas.onrender.com/veiculos/${veiculoId}`);
         if (!response.ok) {
             throw new Error("Erro ao buscar detalhes do veículo!");
         }
