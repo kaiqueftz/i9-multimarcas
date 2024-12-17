@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded', function () {
 //ADICIONAR CARROS PELO JSON
 document.addEventListener("DOMContentLoaded", function () {
   // Carrega os dados dos veículos do JSON
-  fetch('js/carros.json')
+  fetch('/js/carros.json')
       .then(response => response.json())
       .then(data => {
           const listaCarros = document.getElementById('lista-carros');
