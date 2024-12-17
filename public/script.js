@@ -233,6 +233,49 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+async function carregarVeiculos() {
+    try {
+        const response = await fetch('https://i9-multimarcas.onrender.com/veiculos');
+        const veiculos = await response.json();
+        const veiculosList = document.getElementById("veiculosList");
+
+        // Ordena os veículos pela data de cadastro
+        veiculos.sort((a, b) => new Date(b.data_cadastro) - new Date(a.data_cadastro));
+
+        veiculosList.innerHTML = ""; // Limpa a lista antes de adicionar os novos veículos
+
+        // Cria os elementos HTML para cada veículo
+        veiculos.forEach((veiculo) => {
+            const veiculoElement = document.createElement("div");
+            veiculoElement.classList.add("col-md-4", "mb-4");
+
+            veiculoElement.innerHTML = `
+                <div class="card mb-4 shadow-sm h-100">
+                    <img src="${veiculo.imagens}" class="card-img-top" alt="${veiculo.nome}">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold text-primary">${veiculo.nome}</h5>
+                        <p class="card-text text-muted"><strong>Marca:</strong> ${veiculo.marca} - <strong>Modelo:</strong> ${veiculo.modelo}</p>
+                        <p class="card-text"><strong>Ano:</strong> ${veiculo.ano}</p>
+                        <p class="card-text"><strong>Cor:</strong> ${veiculo.cor}</p>
+                        <p class="card-text"><strong>Quilometragem:</strong> ${veiculo.km} km</p>
+                        <p class="card-text"><strong>Preço:</strong> R$ ${veiculo.preco}</p>
+                        <p class="card-text"><strong>Opcionais:</strong> ${veiculo.opcionais}</p>
+                        <p class="card-text"><strong>Motor:</strong> ${veiculo.motor}</p>
+                        <p class="card-text"><strong>Câmbio:</strong> ${veiculo.cambio}</p>
+                        <p class="card-text"><strong>Whatsapp:</strong> ${veiculo.whatsapp}</p>
+                        <a class="btn btn-success" href="https://api.whatsapp.com/send?phone=${veiculo.whatsapp}&text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20ve%C3%ADculos%20dispon%C3%ADveis.%20Encontrei%20voc%C3%AAs%20pelo%20site%20da%20i9%20Multimarcas!">Consultar um Vendedor</a>
+                    </div>
+                </div>`;
+            veiculosList.appendChild(veiculoElement);
+        });
+    } catch (error) {
+        console.error("Erro ao carregar os veículos:", error);
+    }
+}
+
+window.onload = carregarVeiculos;
+
+
   
   
   
