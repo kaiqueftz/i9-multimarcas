@@ -3,7 +3,7 @@ require('dotenv').config();  // Carrega as variáveis do .env
 const express = require('express');
 const multer = require('multer');
 const cors = require('cors');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const { createClient } = require('@supabase/supabase-js');
 
 const app = express();
