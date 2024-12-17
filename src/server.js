@@ -28,15 +28,9 @@ app.use(cors());
 app.use(express.json());
 
 
-// Rota para servir o index.html
-app.get('/', (req, res) => {
-    const indexPath = path.join(__dirname, 'index.html');
-    res.sendFile(indexPath, (err) => {
-        if (err) {
-            console.error('Erro ao servir o index.html:', err); // Exibe o erro no console
-            res.status(500).send('Erro interno do servidor');
-        }
-    });
+// Rota de exemplo para outras funcionalidades do servidor
+app.get('/teste', (req, res) => {
+    res.send('Esta é uma rota de teste!');
 });
 
 // Rota para criar um veículo
