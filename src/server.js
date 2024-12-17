@@ -5,6 +5,7 @@ const multer = require('multer');
 const cors = require('cors');
 const bcrypt = require('bcryptjs');
 const { createClient } = require('@supabase/supabase-js');
+const path = require('path');
 
 const app = express();
 const supabaseUrl = process.env.SUPABASE_URL; // Substitua pela URL do seu Supabase
@@ -27,6 +28,13 @@ async function uploadImageToSupabase(imageBuffer, fileName) {
 app.use(cors());
 app.use(express.json());
 
+// Defina a pasta 'public' como a raiz para arquivos estáticos
+app.use(express.static(path.join(__dirname)));
+
+// Rota para servir o index.html
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'index.html'));
+});
 
 // Rota para criar um veículo
 app.post('/veiculos', async (req, res) => {
