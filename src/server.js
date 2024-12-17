@@ -27,12 +27,6 @@ async function uploadImageToSupabase(imageBuffer, fileName) {
 app.use(cors());
 app.use(express.json());
 
-
-// Rota de exemplo para outras funcionalidades do servidor
-app.get('/teste', (req, res) => {
-    res.send('Esta é uma rota de teste!');
-});
-
 // Rota para criar um veículo
 app.post('/veiculos', async (req, res) => {
     const { nome, marca, modelo, ano, cor, km, preco, opcionais, motor, cambio, whatsapp, imagens } = req.body;

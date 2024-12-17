@@ -193,7 +193,7 @@
 
     <script>
         async function carregarVeiculos() {
-            const response = await fetch('http://localhost:3000/veiculos');
+            const response = await fetch('https://i9-multimarcas.onrender.com');
             const veiculos = await response.json();
             const veiculosList = document.getElementById("veiculosList");
 
